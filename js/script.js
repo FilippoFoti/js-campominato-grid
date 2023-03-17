@@ -19,6 +19,7 @@ playBtn.addEventListener("click", function() {
 
         // Genero la griglia e caselle (100)
         function gridEasy() {
+            gridBox.innerHTML = '';
             for (i = 1; i <= 100; i++){
                 const grid = generateGridItem(i);
                 grid.addEventListener("click", colorClick)
@@ -40,6 +41,7 @@ playBtn.addEventListener("click", function() {
 
         // Genero la griglia e caselle (100)
         function gridMedium() {
+            gridBox.innerHTML = '';
             for (i = 1; i <= 81; i++){
                 const grid = generateGridItem(i);
                 grid.addEventListener("click", colorClick)
@@ -62,6 +64,7 @@ playBtn.addEventListener("click", function() {
 
         // Genero la griglia e caselle (100)
         function gridHard() {
+            gridBox.innerHTML = '';
             for (i = 1; i <= 49; i++){
                 const grid = generateGridItem(i);
                 grid.addEventListener("click", colorClick)
